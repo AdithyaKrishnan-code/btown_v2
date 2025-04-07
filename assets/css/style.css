@@ -10127,3 +10127,8 @@ a:hover {
       transition: all 0.3s ease;
   }
 }
+
+.cs_pagination.cs_style_1 li.slick-active {
+    background-color: #000000;
+    border-color: #707070;
+}
