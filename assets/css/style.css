@@ -9919,3 +9919,211 @@ a.ui-button:active,
     pointer-events: none; /* Ensures it doesn't interfere with interactions */
 }
 
+.cs_hero.cs_style_1 {
+    height: calc(100vh - 3px);
+    padding: 100px 0 50px;
+    max-height: 1100px;
+}
+
+.cs_site_header.cs_style_1.cs_transparent_header {
+  background: rgb(255 255 255 / 33%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.cs_site_header.cs_style_1.cs_transparent_header .cs_nav_list > li > a {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.cs_site_header.cs_style_1.cs_transparent_header .cs_nav_list > li > a:hover {
+  color:#66d405;
+}
+
+.cs_site_header.cs_style_1.cs_transparent_header .cs_btn.cs_style_2:hover {
+  background-color: #66d405;
+  border-color: #ffffff;
+}
+
+.cs_site_header.cs_style_1.cs_transparent_header .cs_btn.cs_style_2 {
+  border-radius: 5px;
+  border-color: #000000;
+  color: #000000;
+}
+
+.cs_gescout_sticky.cs_site_header.cs_style_1.cs_transparent_header {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* bottom shadow */
+}
+
+.cs_btn.cs_style_2:hover {
+  background-color: #66d405;
+  border-color:  #ffffff;
+  color: #fff;
+}
+
+.cs_slider_arrows.cs_style_1 .cs_right_arrow:hover {
+  color: #000000;
+}
+
+.cs_slider_navigation .cs_swiper_button_next:hover {
+  color: #ffffff;
+}
+
+.cs_card.cs_style_1 .cs_card_btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #000000;
+  border: 1.5px solid #000000;
+  font-size: 20px;
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.cs_card.cs_style_1 .cs_card_btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #707070;
+}
+
+.cs_accent_color {
+  color: #707070;
+}
+
+.cs_video_block.cs_style_1 .cs_video_block_title {
+  background: -webkit-gradient(linear, left top, left bottom, from(#191919), to(rgba(125, 126, 124, 0.3)));
+  background: linear-gradient(180deg, #191919 0%, rgba(125, 126, 124, 0.3) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.cs_play_btn {
+  position: absolute;
+  color: #797979;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.cs_list.cs_style_1 svg {
+  color: #000000;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+
+.cs_accent_color {
+  color: #ffffff;
+}
+
+.cs_scrollup::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+.cs_swiper_parallax_bg::after, .cs_hero_bg::after, .cs_bg_filed::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  pointer-events: none;
+}
+
+#btownpic1 {
+  height: 628px;
+  width: 1243px;
+}
+
+.cs_about_feature_list_1 li {
+  width: 33.333333%;
+  border-right: 1px solid black;
+  padding: 0 15px;
+}
+
+.cs_list.cs_style_2 li:hover h2 {
+  color: #000000;
+}
+
+.cs_list.cs_style_2 li:hover .cs_list_icon {
+  background-color: #66d405;
+  color: #fff;
+}
+
+.cs_btn.cs_style_2.cs_accent_btn {
+  background-color: #a4a4a4;
+  border-color: #ffffff;
+  color: #fff;
+  position: relative;
+}
+
+.cs_btn.cs_style_2.cs_accent_btn:hover {
+  background-color: #66d405;
+  border-color: #ffffff;
+  color: #fff;
+}
+
+.cs_slider_arrows.cs_style_2 .cs_right_arrow:hover:hover {
+  color: #000000;
+}
+
+.cs_preloader_in:after {
+  border-color: transparent;
+  border-top-color: #66d405;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1199px) {
+  .cs_transparent_header .cs_nav_list {
+      background-color: #ffffff;
+      color: #000000;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .cs_menu_toggle span, .cs_menu_toggle span:before, .cs_menu_toggle span:after {
+      width: 100%;
+      height: 2px;
+      background-color: rgb(0 0 0);
+      display: block;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .cs_menu_dropdown_toggle span:before, .cs_menu_dropdown_toggle span:after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      height: 2px;
+      width: 10px;
+      background-color: rgb(255 255 255);
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+}
