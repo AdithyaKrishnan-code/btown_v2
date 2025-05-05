@@ -10170,5 +10170,34 @@ a:hover {
   border-radius: 6px;
 }
 
+.cs_gallery_item.cs_style_3 .cs_gallery_item_hover {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    right: 24px;
+    bottom: 24px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgb(255 255 255 / 0%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 40px 20px;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
 
+.cs_btn.cs_style_2.cs_primary_btn:hover {
+  background-color:#66d405; ;
+  border-color: white;
+}
 
